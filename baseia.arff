@@ -1,0 +1,11 @@
+@relation hamspam
+
+@attribute text string
+@attribute class {ham,spam}
+
+@data
+'good',ham
+'very good',ham
+'bad',spam
+'very bad',spam
+'very bad, very bad',spam
